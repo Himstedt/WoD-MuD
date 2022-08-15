@@ -1,0 +1,11 @@
+Login
+Char (creation?)
+Jobs
+Attack
+Inventory
+Item(market)
+Properties (+Market)
+City (+Map)
+Board
+Factions
+Missions

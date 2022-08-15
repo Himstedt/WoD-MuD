@@ -1,0 +1,150 @@
+body {
+    background-image: url('img/concret1.jpg');
+}
+
+#nav-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 8%;
+    width: 100%;
+}
+
+#char-bar {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    background-color: Gray;
+    height: 85%;
+    width: 13%;
+    margin-left: 1.5%;
+    border-radius: 25px;
+    background-clip: padding-box;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    /*margin-top: 10%;*/
+}
+
+#text-area {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    background-color: LightGray;
+    height: 20%;
+    width: 80%;
+    margin-left: 1.5%;
+    border-radius: 25px;
+    background-clip: padding-box;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+#main-area {
+    position: absolute;
+    top: 32%;
+    left: 15%;
+    background-color: LightGray;
+    height: 63%;
+    width: 80%;
+    margin-left: 1.5%;
+    border-radius: 25px;
+    background-clip: padding-box;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+.health-bar {
+  top: 10%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  background: Gray;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+.h-bar {
+  background: #c54;
+  width: 100%;
+  height: 10px;
+  position: relative;
+  border-radius: 5px;
+  border: 2px solid red;
+
+  transition: width .5s linear;
+}
+
+.h-hit {
+  background: rgba(255,255,255,0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0px;
+
+  transition: width .5s linear;
+}
+
+.willpower-bar {
+  top: 15%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  background: Gray;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.w-bar {
+  background: #5544cc;
+  width: 100%;
+  height: 10px;
+  position: relative;
+  border-radius: 5px;
+  border: 2px solid blue;
+
+  transition: width .5s linear;
+}
+
+.w-hit {
+  background: rgba(255,255,255,0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0px;
+
+  transition: width .5s linear;
+}
+
+.news-buttons {
+    top: 20%;
+    position: relative;
+}
+
+.actions {
+    top: 21%;
+    position: relative;
+    background: darkgrey;
+    height: 50%;
+}
+
+.lists {
+    top: 22%;
+    position: relative;
+    background: darkgrey;
+    height: 20%;
+}
+
+.title {
+    position: relative;
+    background: DimGray;
+    height: 18px;
+}
